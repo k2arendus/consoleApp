@@ -1,5 +1,8 @@
 using System;
-
+/*
+Represents a square and has a method to find its perimeter and area
+Limits: max side lenght = 1.34078079299426E+154
+ */
 namespace consoleApp
 {
     class Square
@@ -11,7 +14,7 @@ namespace consoleApp
             this._side = side;
         }
 
-        public void printArea()
+        public void printAreaAndPerimeter()
         {
             Console.WriteLine($"Perimeter = {4*_side} area= {_side*_side}");
         }

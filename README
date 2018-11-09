@@ -1,3 +1,5 @@
+Tested with .NET Core 2.1
+
 #Run 
 
 dotnet run
